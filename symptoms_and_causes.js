@@ -7,7 +7,7 @@ var error_messages = {
 
 // Utility method for getting url parameters
 var params = function () {
-	// This function is anonymous, is executed immediately and 
+	// This function is anonymous, is executed immediately and
 	// the return value is assigned to params!
 	var query_string = {};
 	var query = window.location.search.substring(1);
@@ -35,7 +35,7 @@ var params = function () {
 		} else {
 			query_string[pair[0]].push(pair[1]);
 		}
-	} 
+	}
 	return query_string;
 } ();
 
