@@ -22,3 +22,13 @@
 a {
 	color: black;
 }
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style: none;
+	line-height: 2em;
+}
