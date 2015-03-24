@@ -83,7 +83,7 @@ carpalTunnel.controller('CategoriesListCtrl', function($scope, $http) {
 
 carpalTunnel.controller('DiseaseCtrl', function($scope, $http, $routeParams) {
 	$http.get('data.json').success(function(data) {
-		var disease_name = $routeParams.diseaseName.replace(/_/g, ' ');
+		var disease_name = $routeParams.diseaseName.replace(/_/g, ' ').replace(/\+/g, '/');
 
 		var disease = {};
 
@@ -123,7 +123,7 @@ carpalTunnel.controller('DiseasesListCtrl', function($scope, $http) {
 
 carpalTunnel.filter('encodeURI', function(){
 	return function(input) {
-		return input.replace(/[\/ ]/g, '_');
+		return input.replace(/ /g, '_').replace(/\//g, '+');
 	};
 });
 
