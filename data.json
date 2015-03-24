@@ -1,17 +1,190 @@
 [
 	{
-		"name": "AIDS",
-		"info": "AIDS is a disease that one gets from HIV.",
-		"symptoms": ["Tiredness", "Vomitting"]
+		"category": "Neurological",
+		"diseases": [
+			{
+				"name": "Amyotrophic lateral sclerosis",
+				"history": "The earliest symptoms may include fasciculations, cramps, tight and stiff muscles, muscle weakness affecting an arm or a leg, slurred and nasal speech, or difficulty chewing or swallowing. CTS is a symptom resulting from the degeneration of the median nerve.To be diagnosed with ALS, people must have signs and symptoms of both upper and lower motor neuron damage that cannot be attributed to other causes.",
+				"tests": "No one test can provide a definitive diagnosis of ALS, although the presence of upper and lower motor neuron signs is strongly suggestive.",
+				"diagnosis": "ALS is a nonreversible disease, so treatments serve the purpose of slowing the progression of the disease. Riluzole is the medication prescribed to help the symptoms of ALS along with physical, occupational, and speech therapy.",
+				"prognosis": "ALS is a disease where the nerve cells of the body deteriorate and necrose over time. This results in gradual muscle atrophy including the distribution sites of the median nerve."
+			},
+			{
+				"name": "Myasthenia Gravis",
+				"history": "Common signs and symptoms include drooping of one or both eyelids (ptosis), double vision (diplopia), altered speaking, difficulty swallowing, problems chewing, limited facial expressions, and neck and limb muscle weakness.  CTS is a symptom that results from muscular fatigue and pain (what causes CTS in this patient? need a cause not a symptom here) in the wrist.",
+				"tests": "The disease can be detected through an *edrophonium test, ice pack test, blood analysis, single-fiber electromyography, CT scan",
+				"diagnosis": "Myasthenia gravis is caused by the overproduction of antibodies by the thymus gland.  These antibodies inhibit the binding of acetylcholine to receptor sites on the muscle by blocking or damaging the receptor site.  Treatments include cholinesterase inhibitors, corticosteroids, and immunosuppressants. Though myasthenia gravis is incurable, treatment may help slow the progression of the disease and improve muscle function. ",
+				"prognosis": "Myasthenia gravis occurs when the nerves and muscles no longer communicate properly due to lack of acetylcholine.  This results in difficulty and pain in controlling muscle movement.  ",
+				"note": "assesses muscle strength after an injection of edrophonium chloride. If muscle strength improves after injection, this is an indication of myasthenia gravis."
+			},
+            {
+				"name": "Multiple Sclerosis",
+				"history": "Multiple sclerosis typically causes numbness or weakness in one or more limbs that typically occurs on one side of the body at a time, or the legs and trunk.  Partial or complete loss of vision, usually in one eye at a time, often with pain during eye movement also occur.  Other signs and symptoms include double vision or blurring of vision, tingling or pain in parts of the body, electric-shock sensations that occur with certain neck movements, especially bending the neck forward, tremors, lack of coordination or unsteady gait, slurred speech, fatigue, dizziness, and problems with bowel and bladder function.  CTS manifests as pain produced by the deterioration of communication of the nerves and the nerves themselves. ",
+				"tests": "Though there is no specific test to test for multiple sclerosis, blood tests allow clinicians to eliminate other possible diagnosis of diseases that manifest similar to multiple sclerosis. A spinal tap may show white blood cell and antibody abnormalities that often occur with multiple sclerosis, and an MRI may show lesions in the brain and spinal cord signalling multiple sclerosis. ",
+				"diagnosis": "Multiple sclerosis occurs when the body’s immune system attacks the myelin surrounding the nerve fibers.  It is incurable, but the symptoms and progression of the disease can be treated.  Medication such as Beta interferons, latiramer acetate (Copaxone), Dimethyl fumarate (Tecfidera), Fingolimod (Gilenya), Teriflunomide (Aubagio), Natalizumab (Tysabri), Mitoxantrone (Novantrone) can be taken to alter the progression of MS. ",
+				"prognosis": "As the myelin sheath around the nerve deteriorates, communication between the brain and the nerves throughout the body is hindered.  Eventually, the nerves will also degenerate and affect median nerve function.   "
+			},
+          	{
+				"name": "Transverse Myelitis",
+				"history": "Pain associated with transverse myelitis often begins suddenly in the neck or back, depending on the part of the spinal cord that's affected. Sharp, shooting sensations may also radiate down the legs or arms or around your abdomen.  There may be sensations of numbness, tingling, coldness or burning.  Sensitivity to the light touch of clothing or to extreme heat or cold have been reported. Transverse myelitis often has the sensation of something wrapped tightly around certain parts of the body, such as the chest or legs. Other symptoms include weakness in the arms or legs, dragging on foot, bladder and bowel problems, and paralysis.  The characteristic pain at the wrist may be interpreted as CTS caused by the impairment of the nerves. ",
+				"tests": "An MRI may reveal inflammation of the spinal cord. A spinal tap may reveal high levels of white blood cells which indicate infection. A blood test can check for antibodies associated with neuromyelitis optica.  This condition affects the spinal cord and optic nerve and may be an indication of potential development for transverse myelitis. ",
+				"diagnosis": "Transverse myelitis is caused by inflammation of the spinal cord and affects the myelin surrounding the nerve fibers. Treatment includes intravenous steroids, plasma exchange therapy, antiviral medication, and pain medication.  Physical therapy goals include increasing strength and improving coordination. ",
+				"prognosis": "Most people achieve at least some if not full recovery.  However, there is a possibility of slight or severe disability.  "
+			}
+		]
 	},
 	{
-		"name": "Cancer",
-		"info": "Cancer is a variety of diseases.",
-		"symptoms": ["Vomitting", "Dry Mouth", "Headache"]
+		"category": "Autoimmune",
+		"diseases": [
+			{
+				"name": "Rheumatoid Arthiritis",
+				"history": "Rheumatoid arthritis often results in tender, warm, swollen joints, morning stiffness that may last for hours, firm bumps of tissue under the skin on the arms (rheumatoid nodules), fatigue, fever, and weight loss.  Carpal tunnel syndrome may be one of the first symptoms, as the synovium around the tendons in the wrist become inflamed and pinch the median nerve. ",
+				"tests": "There is no method to test specifically for rheumatoid arthritis.  Doctors may make a diagnosis based on signs and symptoms.  Blood tests can check the erythrocyte sedimentation rate, which indicates an inflammatory response if elevated.  ",
+				"diagnosis": "There is no cure for rheumatoid arthritis, but medications such as NSAIDs, steroids, disease-modifying antirheumatic drugs (DMARDs), and biologic agents. Surgery is an option for severe rheumatoid arthritis, including joint replacement, tendon repair, or joint fusion. ",
+				"prognosis": "Rheumatoid arthritis occurs when the body’s immune system attacks the lining of the joints, causing inflammation and swelling.  There is no cure for rheumatoid arthritis, though medication can help slow joint damage.  Thus the wrist, hand, and fingers symptoms and signs associated with CTS will be chronically manifested. "
+			},
+            {
+				"name": "Lupus",
+				"history": "Signs and symptoms that help to indicate lupus are fatigue and fever, joint pain, stiffness and swelling, a butterfly-shaped rash on the face that covers the cheeks and bridge of the nose, skin lesions that appear or worsen with sun exposure (photosensitivity), fingers and toes that turn white or blue when exposed to cold or during stressful periods (Raynaud's phenomenon), shortness of breath, chest pain, dry eyes, and headaches, confusion and memory loss.  CTS is a common symptom due to inflammation in the joint of the carpal tunnel, which causes impingement of the median nerve.  ",
+				"tests": "Tests include a complete blood count to test for anemia, which often occurs with lupus. Further tests consist of an erythrocyte sedimentation rate (See Apendix B), a kidney and liver assessment, a urinalysis to test for blood and proteins in the urine, and an antinuclear antibody (ANA) test in which high levels of the antibody indicate a stimulated immune system. ",
+				"diagnosis": "Non-steroidal anti-inflammatory drugs (NSAIDs), antimalarial drugs, corticosteroids, and immunosuppressants. ",
+				"prognosis": "Lupus occurs when the immune system attacks the tissues of the body, causing pain and inflammation.  Lupus flares can be controlled and organ damage can be slowed down.  If not treated, lupus will cause organ damage.  CTS once manifested tends to persist with intermittent remission and recurrence. "
+			},
+            {
+				"name": "Gout",
+				"history": "The symptoms of gout are intense joint pain, lingering discomfort, inflammation and redness, and limited joint mobility often occurring suddenly and at night. CTS is a symptom due to the accumulation of urate crystals in the associated joints of the distal lower extremity. Gout is caused by a buildup of uric acid in the blood, causing sharp and intense pain in the joints. It normally manifests in the foot, but can occur in the hand. ",
+				"tests": "A joint fluid test can indicate gout due to composition and appearance of the fluid extracted. Cloudy fluid with a high white blood cell count is an indication of gout. X-rays, CT scans, and ultrasound can detect urate crystals, and a blood tests can detect excess uric acid in the blood. ",
+				"diagnosis": "Nonsteroidal anti-inflammatory drugs (NSAIDs), colchicine, and corticosteroids are medications that are treat and prevent gout attacks. ",
+				"prognosis": "Gout can be treated with medication, with high rates of reversal of symptoms in the foot and wrist. "
+			}
+		]
 	},
 	{
-		"name": "Restless Leg Syndrome",
-		"info" : "RLS sucks, and I think I have it.",
-		"symptoms": ["Tiredness", "Restless Legs"]
+		"category": "Mechanical/Workplace/Trauma",
+		"diseases": [
+			{
+				"name": "Wrist fracture or dislocation",
+				"history": "Swelling, tenderness, bruising, numbness in the hand, stiffness, wrist or hand deformity, pain.  CTS is a symptom when the fracture or dislocation causes an impingement on the median nerve in the wrist. ",
+				"tests": "X-Rays, CT scans, and MRIs can detect fractures or dislocations. A physical exam can assess range of motion, impediments to blood flow, and nerve damage. ",
+				"diagnosis": "Treatments include fracture reduction, surgery, pain relieving medication, immobilization, and physical therapy. ",
+				"prognosis": "Treatment can result in full or partial recovery of wrist function.  "
+			}
+		]
+	},
+  	{
+		"category": "Neoplastic",
+		"diseases": [
+			{
+				"name": "Amyloidosis",
+				"history": "Amyloidosis can manifest as swelling of ankles and legs, severe fatigue and weakness, shortness of breath, numbness, diarrhea or constipation, feeling full quickly when eating, difficulty swallowing, and significant weight loss. Other signs are enlarged tongue, skin changes, such as thickening or easy bruising, and purplish patches around the eyes, and an irregular heartbeat.  Tingling or pain in the hands or feet, especially in the wrist, can result from impingement of the median nerve due to decreased area within the carpal tunnel, resulting in CTS.  ",
+				"tests": "Blood tests and urine tests can examine the presence of abnormal proteins indication amyloidosis. A biopsy may allow clinicians to identify the type of amyloid present.  ",
+				"diagnosis": "Chemotherapy and a peripheral blood stem cell transplant are both treatments for amyloidosis.  Different treatments exist for the different types of amyloidosis. Medication to aid in fluid retention, control heart rate, and for blood thinning are other treatment options.  There is no cure for amyloidosis and thus CTS symptoms may persist chronically. ",
+				"prognosis": "Amyloidosis is caused by amyloid buildup in the organs.  Amyloidosis can result in CTS due to amyloid buildup in the kidneys. "
+			},
+            {
+				"name": "Tumor",
+				"history": "CTS may be the only symptom of a tumor in the wrist.  Space occupying lesions may lead to fluid buildup in the carpal tunnel, which compresses the median nerve. ",
+				"tests": "MRI scans can detect the presence of tumors. ",
+				"diagnosis": "Removal of the tumor through surgery is the most effective way to treat the tumor and the CTS that ensues.  *Carpal tunnel release will be ineffective if the tumor remains. ",
+				"prognosis": "Removal of the tumor can result in full recovery.  If the tumor is cancerous, it is important to determine if the cancer is malignant and treat accordingly. ",
+                "note": "surgery in which the ligament impinging the median nerve is cut to release pressure on the median nerve and increase area within the carpal tunnel."
+			}
+		]
+	},
+  	{
+		"category": "Metabolic",
+		"diseases": [
+			{
+				"name": "Hypothyroidism/Myxedema",
+				"history": "The symptoms of hypothyroidism are manifested gradually and develop over a long period of time.  They include fatigue, increased sensitivity to cold, constipation, dry skin, unexplained weight gain, puffy face, hoarseness, muscle weakness, elevated blood cholesterol level, muscle aches, tenderness, stiffness, thinning hair, slowed heart rate, depression, and impaired memory.  CTS is a symptom of hypothyroidism due to swelling in the joints, causing space occupying pain and stiffness. ",
+				"tests": "A blood test can measure TSH and thyroxine levels in the blood. Normally TSH levels are tested primarily because high levels of TSH is a reliable indicator of hypothyroidism. ",
+				"diagnosis": "Treatment for hypothyroidism consists of the oral medication levothyroxine. Hypothyroidism is the underproduction of the the thyroid hormones.  Levothyroxine is a synthetic thyroid hormone that acts as a thyroid hormone replacement so that the patient’s thyroid hormone levels are elevated to normal. ",
+				"prognosis": "Hypothyroidism is easily treated and symptoms, carpal tunnel syndrome included, can be eradicated with early treatment.   "
+			},
+            {
+				"name": "Acromegaly",
+				"history": "Often the first sign of acromegaly is enlarged hands and feet.  Gradual changes in face shape may also occur, such as thickening lips, a protruding jaw, wider-set mouth, and larger nose.  Other signs and symptoms include coarse or thick skin, body odor, fatigue, deepening of the voice, headaches, impaired vision, and enlarged organs and tongue.  CTS is a symptom of acromegaly due to the growth of the bones in the wrist.  These bones begin to encroach the carpal tunnel space and stenos the median nerve. ",
+				"tests": "GH and IGF-1 measurement: blood test to determine levels of growth hormone and insulin-like growth factor-1.  The most imperative test is the growth hormone suppression test in which GH levels in the blood are tested before and after drinking a solution of glucose, which causes suppression of GH.  If GH levels are not suppressed after, then acromegaly is indicated. ",
+				"diagnosis": "Normally acromegaly is caused by a tumor on the pituitary gland, causing over secretion of GH.  Surgery to remove the tumor is a viable treatment. Medications to suppress GH include growth hormone antagonists, dopamine agonists, and somatostatin analogues.   ",
+				"prognosis": "Acromegaly can pose serious health risks if not treated directly.  However, withtreatment, the complications, symptoms, and pain associated with CTS caused by acromegaly can be reduced. "
+			},
+            {
+				"name": "Diabetes",
+				"history": "Signs and symptoms for both Type I and Type II diabetes include increased thirst, frequent urination, excessive hunger, weight loss, ketones in the urine, fatigue, irritability, blurred vision, slow-healing sores, and frequent infections.  CTS is a common symptom of diabetes due to high glucose levels in the blood.  This glycosylation causes the tendons within the carpal tunnel to become saturated with sticky glucose molecules.  The tendons become inflamed and stenos the median nerve in the carpal tunnel resulting in motor and sensory disturbance. ",
+				"tests": "*Glycated hemoglobin (A1C) tests and **oral glucose tolerance tests are common tests. A fasting blood sugar test measures the glucose in the blood after an overnight fast. Two separate tests that show glucose levels above 126 mg/dL are sufficient to diagnose diabetes. A random blood sugar test also indicates diabetes if blood glucose levels are above 200 mg/dL at any given time. ",
+				"diagnosis": "Treatment for diabetes consists of healthy eating, physical activity, monitoring blood sugar, and insulin. ",
+				"prognosis": "If not treated, diabetes can be a life-threatening illness. With regular insulin checks and healthy diet, the symptoms of Type I diabetes can be moderated and Type II diabetes can be eradicated. ",
+                "note": "*shows average blood glucose levels for previous two to three months by measuring the percentage of glucose molecules attached to hemoglobin. Higher glucose levels mean more hemoglobin. A1C levels above 6.5 % indicate diabetes. **consists of fasting overnight with glucose levels measured the following day. The patient is then asked to consume a drink high in sugar and glucose levels measured for the next two hours periodically. After the two hours, glucose levels over 200 mg/dL are an indication of diabetes. "
+			},
+            {
+				"name": "Obesity",
+				"history": "The symptoms of obesity are excess weight, increased heart rate, lowered metabolism, tiredness, a Body Mass Index (BMI) of 30 or higher, as well as joint pain.  CTS is a symptom of obesity due to increased overall inflammation in the body. ",
+				"tests": "Obesity can be easily identified by taking a health history, checking for other health problems, calculating BMI, measuring waist circumference, a general physical exam, and blood tests.  ",
+				"diagnosis": "Dietary changes, exercise and activity, behavior change, prescription weight-loss medications, and weight-loss surgery are all methods for treating obesity. ",
+				"prognosis": "Obesity can lead to other serious health problems such as cardiac disease if not dealt with promptly.  With exercise and a healthy diet, obesity can be moderated and health issues minimized, with lessening of pain resulting from CTS or elimination of CTS altogether.  "
+			},
+            {
+				"name": "Growth Hormone Use",
+				"history": "Nerve, muscle, or joint pain, edema, carpal tunnel syndrome, numbness and tingling of the skin, and high cholesterol levels are the signs and symptoms of growth hormone use.  CTS results from edema in the carpal tunnel which compresses the median nerve, causing pain and discomfort. ",
+				"tests": "Blood tests can determine the amount of growth hormone in the blood and indicate growth hormone use. ",
+				"diagnosis": "Termination of use of growth hormone will treat many symptoms growth hormone use. ",
+				"prognosis": "Growth hormone use (especially illegally) can result in an increased risk of diabetes as well as aid in the growth of malignant tumors.  CTS may be eliminated with the ceasing of growth hormone use.  If it persists, *carpal tunnel release surgery may be performed. ",
+                "note": "surgery in which the ligament impinging the median nerve is cut to release pressure on the median nerve and increase area within the carpal tunnel. "
+			}
+		]
+	},
+  	{
+		"category": "Genetic",
+		"diseases": [
+			{
+				"name": "Downs Syndrome",
+				"history": "The signs and symptoms of Down’s syndrome include flattened facial features, small head, short neck, protruding tongue, upward slanting eyes, unusual for the child's ethnic group, unusually shaped or small ears, poor muscle tone, broad, short hands with a single crease in the palm, relatively short fingers and small hands and feet, excessive flexibility, Brushfield spots on iris of eye, and short stature.  CTS is a symptom of Downs syndrome when the carpal tunnel is congentitally smaller, thus there is less space for which the median nerve to pass through, leading to impingement of the median nerve. ",
+				"tests": "Diagnostic testing during pregnancy consist of amniocentesis, chorionic villus sampling (CVS), and cordocentesis. ",
+				"diagnosis": "There is no cure for Downs Syndrome, but help from specialists can help children with Downs Syndrome develop better motor skills, language, social skills, and self-help skills. ",
+				"prognosis": "Most patients with Downs Syndrome can live to middle age, depending on the severity of the accompanying medical issues. CTS may persist throughout life, though *carpal tunnel release surgery may relieve the pain. ",
+                "note": "surgery in which the ligament impinging the median nerve is cut to release pressure on the median nerve and increase area within the carpal tunnel. "
+			},
+            {
+				"name": "Rare Diseases: Acromicric Dysplasia, Acrodysostosis, and Leri Pleonosteosis ",
+				"history": "Signs and Symptoms of acromicric dysplasia are short stature, short hands and feet, mild facial dysmorphism, and hand abnormalities.  Acrodysostosis manifests as shortened bones in the hands and feet, mental retardation, and short stature.  Leri pleonosteosis results in an abnormally formed skeletal structure, flattened facial features, and atypical hand and feet formation. CTS is a symptom of these diseases because of the abnormalities of the hand and wrist that result in a smaller carpal tunnel.  The decrease of space in the carpal tunnel causes median nerve impingement.  ",
+				"tests": "X-Rays show delayed carpal bone age, indicating these rare diseases. ",
+				"diagnosis": "There is no cure for these diseases, but growth hormone therapy and physical therapy can ease the symptoms, including CTS. ",
+				"prognosis": "Most patients with the above diseases can expect a normal life expectancy, though complications may occur, namely respiratory challenges and limited joint range of motion. CTS can be helped with carpal tunnel release surgery. ",
+                "note": "surgery in which the ligament impinging the median nerve is cut to release pressure on the median nerve and increase area within the carpal tunnel. "
+			}
+		]
+	},
+  	{
+		"category": "Gender",
+		"diseases": [
+			{
+				"name": "Pregnancy",
+				"history": "The signs and symptoms of pregnancy are a missed period, swollen and tender breasts, nausea, vomiting, fatigue, increased urination, food cravings, dizziness, mood swings, and CTS due to weight gain and fluid retention resulting in inflammation of the ligaments within the carpal tunnel.  This inflammation compresses the median nerve, causing pain. ",
+				"tests": "Both urine tests and blood tests can determine pregnancy by detecting if the human chorionic gonadotropin (hCH) is present. ",
+				"diagnosis": "Pregnancy requires a nutritious diet including vitamins.  CTS may go untreated as it usually is only present during the pregnancy. ",
+				"prognosis": "Most women can expect a successful pregnancy when proper nutrition and health precautions are heeded. CTS will often subside after the baby is born.  "
+			},
+            {
+				"name": "Menopause",
+				"history": "Signs and Symptoms of menopause include irregular periods, vaginal dryness, hot flashes, night sweats, sleep problems, mood changes, weight gain and slowed metabolism, thinning hair and dry skin, and loss of breast fullness. CTS can result from hormonal changes causing fluid retention in the wrist. This causes compression of the median nerve within the carpal tunnel space. ",
+				"tests": "Normally no tests are needed, but a blood test may evaluate estrogen and FSH levels. Low levels of estrogen and high levels of FSH indicate menopause.   Menopause is confirmed when the women has not had a period for twelve consecutive months. ",
+				"diagnosis": "Hormone therapy can treat hot flashes, while antidepressants can ease depression, and  other medication may be important to prevent or treat osteoporosis. ",
+				"prognosis": "Menopause results in the woman no longer having periods and no longer being fertile. CTS is normally short term and ceases with the termination of menopause and postmenopause."
+			}
+		]
+	},
+	{
+		"name": "Medication",
+		"history": "A history of taking medications that affect the immune system or anticlotting drugs are linked to higher prevalence of CTS.  ",
+		"tests": "There are no tests to determine if medication is causing carpal tunnel syndrome. The patient’s medical history must be obtained to assess which medications may cause CTS. ",
+		"diagnosis": "Carpal tunnel release surgery (See Appendix B) may be performed in order to relieve the pain of CTS.  CTS may also diminish with the termination of medication. ",
+		"prognosis": "Certain medication may be necessary for the patient’s health and should be continued.  CTS can be combated with surgery or may be eliminated naturally. "
+	},
+	{
+		"name": "Kidney Disfunction",
+		"history": "Kidney dysfunction may result in a variety of signs and symptoms.  These include nausea, vomiting, loss of appetite, fatigue and weakness, sleep problems, changes in urine output, decreased mental sharpness, muscle twitches and cramps, hiccups, swelling of the feet and ankles, persistent itching, chest pain, shortness of breath, hypertension, and CTS.  CTS can result from fluid builds up in the carpal tunnel, impinging the median nerve and causing pain. ",
+		"tests": "Urine tests determine the amount of albumin protein in the urine.  High levels of albumin indicate the kidneys are not filtering waste adequately.  Blood tests determine the glomerular filtration rate.  If the value is less than 60, the kidneys are not working properly to filter the blood.  ",
+		"diagnosis": "End-stage kidney disease may require a kidney transplant. ",
+		"prognosis": "If detected in early stages, treatment of kidney dysfunction can result in full recovery. The symptoms of kidney dysfunction, such as CTS, can resolve with the recovery of kidney function.  If left untreated, kidney dysfunction could lead to kidney failure and sepsis, and ultimately death.  "
 	}
 ]
