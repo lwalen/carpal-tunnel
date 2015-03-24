@@ -36,7 +36,7 @@ carpalTunnel.controller('MainCtrl', function($scope, $http) {
 
 carpalTunnel.controller('CategoryCtrl', function($scope, $http, $routeParams) {
 	$http.get('data.json').success(function(data) {
-		$scope.name = $routeParams.categoryName;
+		$scope.name = decodeURI($routeParams.categoryName);
 
 		var diseases = [];
 
@@ -69,9 +69,15 @@ carpalTunnel.controller('CategoriesListCtrl', function($scope, $http) {
 			var category = "";
 
 			if (data[i].category) {
-				category = data[i].category;
+				category = {
+					name: data[i].category,
+					url: "categories/" + encodeURI(data[i].category)
+				};
 			} else if (data[i].name) {
-				category = data[i].name;
+				category = {
+					name: data[i].name,
+					url: "diseases/" + encodeURI(data[i].name)
+				};
 			}
 
 			categories[i] = category;
@@ -83,7 +89,7 @@ carpalTunnel.controller('CategoriesListCtrl', function($scope, $http) {
 
 carpalTunnel.controller('DiseaseCtrl', function($scope, $http, $routeParams) {
 	$http.get('data.json').success(function(data) {
-		var disease_name = $routeParams.diseaseName.replace(/_/g, ' ').replace(/\+/g, '/');
+		var disease_name = decodeURI($routeParams.diseaseName);
 
 		var disease = {};
 
@@ -123,9 +129,17 @@ carpalTunnel.controller('DiseasesListCtrl', function($scope, $http) {
 
 carpalTunnel.filter('encodeURI', function(){
 	return function(input) {
-		return input.replace(/ /g, '_').replace(/\//g, '+');
+		return encodeURI(input);
 	};
 });
+
+function encodeURI(uri) {
+	return uri.replace(/ /g, '_').replace(/\//g, '+');
+}
+
+function decodeURI(uri) {
+	return uri.replace(/_/g, ' ').replace(/\+/g, '/');
+}
 
 function compare(a, b) {
   if (a.name < b.name)
