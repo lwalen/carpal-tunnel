@@ -1,0 +1,7 @@
+<h1>{{name}}</h1>
+
+<ul>
+	<li ng-repeat="disease in diseases">
+		<a href="#/diseases/{{disease.name | encodeURI}}">{{disease.name}}</a>
+	</li>
+</ul>
