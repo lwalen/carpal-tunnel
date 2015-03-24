@@ -24,6 +24,9 @@ carpalTunnel.config(function($routeProvider) {
 			templateUrl: 'disease.html',
 			controller: 'DiseaseCtrl'
 		}).
+		when('/anatomy-and-physiology', {
+			templateUrl: 'anatomy-and-physiology.html'
+		}).
 		otherwise({
 			redirectTo: '/'
 		});
@@ -98,7 +101,8 @@ carpalTunnel.controller('DiseaseCtrl', function($scope, $http, $routeParams) {
 			if (data[i].category) {
 				for (var j = 0; j < data[i].diseases.length; j++) {
 					if (data[i].diseases[j].name === disease_name) {
-						disease = data[i].diseases[j]
+						disease = data[i].diseases[j];
+						disease.category = data[i].category;
 					}
 				}
 			} else if (data[i].name && data[i].name === disease_name) {
