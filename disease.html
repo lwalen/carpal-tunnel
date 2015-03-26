@@ -1,5 +1,13 @@
 
-<p class='breadcrumbs'><a href="#/">Main</a> / <a href="#/categories/">Categories</a> / <a href="#categories/{{disease.category | encodeURI}}">{{disease.category}}</a> / {{disease.name}}</p>
+<p class='breadcrumbs'>
+	<a href="#/">Main</a>
+	/
+	<a href="#/categories/">Categories</a>
+	/
+	<a href="#categories/{{disease.category | encodeURI}}">{{disease.category}}</a>
+	<span ng-hide='!disease.category'> / </span>
+	{{disease.name}}
+</p>
 
 <h1>{{disease.name}}</h1>
 

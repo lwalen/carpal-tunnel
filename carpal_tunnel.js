@@ -138,11 +138,15 @@ carpalTunnel.filter('encodeURI', function(){
 });
 
 function encodeURI(uri) {
-	return uri.replace(/ /g, '_').replace(/\//g, '+');
+	if (uri) {
+		return uri.replace(/ /g, '_').replace(/\//g, '+');
+	}
 }
 
 function decodeURI(uri) {
-	return uri.replace(/_/g, ' ').replace(/\+/g, '/');
+	if (uri) {
+		return uri.replace(/_/g, ' ').replace(/\+/g, '/');
+	}
 }
 
 function compare(a, b) {
