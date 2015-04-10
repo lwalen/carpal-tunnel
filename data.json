@@ -117,13 +117,6 @@
                 "note": "**shows average blood glucose levels for previous two to three months by measuring the percentage of glucose molecules attached to hemoglobin. Higher glucose levels mean more hemoglobin. A1C levels above 6.5 % indicate diabetes. **consists of fasting overnight with glucose levels measured the following day. The patient is then asked to consume a drink high in sugar and glucose levels measured for the next two hours periodically. After the two hours, glucose levels over 200 mg/dL are an indication of diabetes. "
 			},
             {
-				"name": "Obesity",
-				"history": "The symptoms of obesity are excess weight, increased heart rate, lowered metabolism, tiredness, a Body Mass Index (BMI) of 30 or higher, as well as joint pain.  CTS is a symptom of obesity due to increased overall inflammation in the body. ",
-				"tests": "Obesity can be easily identified by taking a health history, checking for other health problems, calculating BMI, measuring waist circumference, a general physical exam, and blood tests.  ",
-				"diagnosis": "Dietary changes, exercise and activity, behavior change, prescription weight-loss medications, and weight-loss surgery are all methods for treating obesity. ",
-				"prognosis": "Obesity can lead to other serious health problems such as cardiac disease if not dealt with promptly.  With exercise and a healthy diet, obesity can be moderated and health issues minimized, with lessening of pain resulting from CTS or elimination of CTS altogether.  "
-			},
-            {
 				"name": "Growth Hormone Use",
 				"history": "Nerve, muscle, or joint pain, edema, carpal tunnel syndrome, numbness and tingling of the skin, and high cholesterol levels are the signs and symptoms of growth hormone use.  CTS results from edema in the carpal tunnel which compresses the median nerve, causing pain and discomfort. ",
 				"tests": "Blood tests can determine the amount of growth hormone in the blood and indicate growth hormone use. ",
