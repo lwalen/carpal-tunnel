@@ -13,7 +13,7 @@
 				"name": "Myasthenia Gravis",
 				"history": "Common signs and symptoms include drooping of one or both eyelids (ptosis), double vision (diplopia), altered speaking, difficulty swallowing, problems chewing, limited facial expressions, and neck and limb muscle weakness.  CTS is a symptom that results from muscular fatigue and pain (what causes CTS in this patient? need a cause not a symptom here) in the wrist.",
 				"tests": "The disease can be detected through an *edrophonium test, ice pack test, blood analysis, single-fiber electromyography, CT scan",
-				"diagnosis": "Myasthenia gravis is caused by the overproduction of antibodies by the thymus gland.  These antibodies inhibit the binding of acetylcholine to receptor sites on the muscle by blocking or damaging the receptor site.  Treatments include cholinesterase inhibitors, corticosteroids, and immunosuppressants. Though myasthenia gravis is incurable, treatment may help slow the progression of the disease and improve muscle function. ",
+				"diagnosis": "Myasthenia gravis is caused by the production of antibodies that destroy acetylcholine receptor sites on the muscle. This causes muscle weakness as the nerves signals do not reach the muscle. Treatments include cholinesterase inhibitors, corticosteroids, and immunosuppressants. Though myasthenia gravis is incurable, treatment may help slow the progression of the disease and improve muscle function.",
 				"prognosis": "Myasthenia gravis occurs when the nerves and muscles no longer communicate properly due to lack of acetylcholine.  This results in difficulty and pain in controlling muscle movement.  ",
 				"note": "*assesses muscle strength after an injection of edrophonium chloride. If muscle strength improves after injection, this is an indication of myasthenia gravis."
 			},
@@ -50,13 +50,6 @@
 				"diagnosis": "Non-steroidal anti-inflammatory drugs (NSAIDs), antimalarial drugs, corticosteroids, and immunosuppressants. ",
 				"prognosis": "Lupus occurs when the immune system attacks the tissues of the body, causing pain and inflammation.  Lupus flares can be controlled and organ damage can be slowed down.  If not treated, lupus will cause organ damage.  CTS once manifested tends to persist with intermittent remission and recurrence. "
 			},
-            {
-				"name": "Gout",
-				"history": "The symptoms of gout are intense joint pain, lingering discomfort, inflammation and redness, and limited joint mobility often occurring suddenly and at night. CTS is a symptom due to the accumulation of urate crystals in the associated joints of the distal lower extremity. Gout is caused by a buildup of uric acid in the blood, causing sharp and intense pain in the joints. It normally manifests in the foot, but can occur in the hand. ",
-				"tests": "A joint fluid test can indicate gout due to composition and appearance of the fluid extracted. Cloudy fluid with a high white blood cell count is an indication of gout. X-rays, CT scans, and ultrasound can detect urate crystals, and a blood tests can detect excess uric acid in the blood. ",
-				"diagnosis": "Nonsteroidal anti-inflammatory drugs (NSAIDs), colchicine, and corticosteroids are medications that are treat and prevent gout attacks. ",
-				"prognosis": "Gout can be treated with medication, with high rates of reversal of symptoms in the foot and wrist. "
-			}
 		]
 	},
 	{
@@ -123,6 +116,13 @@
 				"diagnosis": "Termination of use of growth hormone will treat many symptoms growth hormone use. ",
 				"prognosis": "Growth hormone use (especially illegally) can result in an increased risk of diabetes as well as aid in the growth of malignant tumors.  CTS may be eliminated with the ceasing of growth hormone use.  If it persists, *carpal tunnel release surgery may be performed. ",
                 "note": "*surgery in which the ligament impinging the median nerve is cut to release pressure on the median nerve and increase area within the carpal tunnel. "
+			},
+			{
+				"name": "Gout",
+				"history": "The symptoms of gout are intense joint pain, lingering discomfort, inflammation and redness, and limited joint mobility often occurring suddenly and at night. CTS is a symptom due to the accumulation of urate crystals in the associated joints of the distal lower extremity. Gout is caused by a buildup of uric acid in the blood, causing sharp and intense pain in the joints. It normally manifests in the foot, but can occur in the hand. ",
+				"tests": "A joint fluid test can indicate gout due to composition and appearance of the fluid extracted. Cloudy fluid with a high white blood cell count is an indication of gout. X-rays, CT scans, and ultrasound can detect urate crystals, and a blood tests can detect excess uric acid in the blood. ",
+				"diagnosis": "Nonsteroidal anti-inflammatory drugs (NSAIDs), colchicine, and corticosteroids are medications that are treat and prevent gout attacks. ",
+				"prognosis": "Gout can be treated with medication, with high rates of reversal of symptoms in the foot and wrist. "
 			}
 		]
 	},
